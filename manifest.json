@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Total Gasto Tarjeta",
+    "version": "1.0",
+    "description": "Extensión para calcular montos total de tarjeta consumido en el mes BERSA",
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "content_scripts": [
+        {
+          "js": [
+            "scripts/content.js"
+          ],
+          "matches": [
+            "https://digital.bancoentrerios.ar/*"
+          ]
+        }
+      ],
+      "icons": {
+        "128": "icon128.png"
+      }
+  }
+  
