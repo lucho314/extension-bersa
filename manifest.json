@@ -13,7 +13,8 @@
             "scripts/content.js"
           ],
           "matches": [
-            "https://digital.bancoentrerios.ar/*"
+            "https://digital.bancoentrerios.ar/*",
+            "https://bee.redlink.com.ar/*"
           ]
         }
       ],
